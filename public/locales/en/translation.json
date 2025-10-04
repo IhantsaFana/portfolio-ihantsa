@@ -1,0 +1,40 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Welcome to my Portfolio",
+    "subtitle": "Full Stack Developer",
+    "description": "Passionate about creating modern and performant web applications",
+    "cta": "View my work"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I'm a full stack developer passionate about web technologies and creating exceptional user experiences."
+  },
+  "projects": {
+    "title": "My Projects",
+    "viewProject": "View Project",
+    "sourceCode": "Source Code"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message",
+    "success": "Message sent successfully!",
+    "error": "An error occurred. Please try again."
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  },
+  "meta": {
+    "title": "Portfolio - Full Stack Developer",
+    "description": "Full Stack Developer portfolio showcasing modern web projects and applications",
+    "keywords": "developer, full stack, react, typescript, portfolio"
+  }
+}

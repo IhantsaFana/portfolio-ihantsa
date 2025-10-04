@@ -1,0 +1,40 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Bienvenue sur mon Portfolio",
+    "subtitle": "Développeur Full Stack",
+    "description": "Passionné par la création d'applications web modernes et performantes",
+    "cta": "Voir mes réalisations"
+  },
+  "about": {
+    "title": "À propos de moi",
+    "description": "Je suis un développeur full stack passionné par les technologies web et la création d'expériences utilisateur exceptionnelles."
+  },
+  "projects": {
+    "title": "Mes Projets",
+    "viewProject": "Voir le projet",
+    "sourceCode": "Code source"
+  },
+  "contact": {
+    "title": "Me Contacter",
+    "name": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "send": "Envoyer",
+    "success": "Message envoyé avec succès !",
+    "error": "Une erreur s'est produite. Veuillez réessayer."
+  },
+  "footer": {
+    "rights": "Tous droits réservés"
+  },
+  "meta": {
+    "title": "Portfolio - Développeur Full Stack",
+    "description": "Portfolio de développeur Full Stack présentant des projets et applications web modernes",
+    "keywords": "développeur, full stack, react, typescript, portfolio"
+  }
+}
