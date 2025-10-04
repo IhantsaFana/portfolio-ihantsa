@@ -6,26 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OEKA - Ihantsa RAKOTONDRANAIVO</title>
     
-    <!-- Script pour appliquer le thème immédiatement -->
+    <!-- Script minimal pour le thème -->
     <script>
       (function() {
-        try {
-          const savedTheme = localStorage.getItem('theme');
-          const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-          const theme = savedTheme || (systemPrefersDark ? 'dark' : 'light');
-          
-          if (theme === 'dark') {
-            document.documentElement.classList.add('dark');
-          } else {
-            document.documentElement.classList.remove('dark');
-          }
-          
-          // Éviter le flash de contenu non stylé
-          document.documentElement.style.colorScheme = theme;
-        } catch (e) {
-          // Fallback en cas d'erreur
-          console.warn('Theme initialization failed:', e);
-        }
+        const theme = localStorage.getItem('theme') || 
+          (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        if (theme === 'dark') document.documentElement.classList.add('dark');
       })();
     </script>
   </head>

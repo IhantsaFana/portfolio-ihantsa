@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { ThemeToggle } from '@/components/ui/ThemeToggle';
 import { LanguageSwitcher } from '@/components/ui/LanguageSwitcher';
 import { motion } from 'framer-motion';
 
@@ -48,7 +47,6 @@ export function Header() {
           {/* Actions */}
           <div className="flex items-center gap-4">
             <LanguageSwitcher />
-            <ThemeToggle />
           </div>
         </div>
       </nav>
