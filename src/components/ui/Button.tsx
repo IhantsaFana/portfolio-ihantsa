@@ -25,11 +25,11 @@ export function Button({
   // Base styles
   const baseStyles = 'inline-block font-medium rounded-md transition-colors text-center focus:outline-none focus:ring-2 focus:ring-offset-2';
   
-  // Size styles
+  // Size styles - Tailles réduites
   const sizeStyles = {
-    sm: 'px-4 py-2 text-sm',
-    md: 'px-6 py-3 text-sm',
-    lg: 'px-12 py-6 text-lg font-semibold'
+    sm: 'px-3 py-1.5 text-sm',
+    md: 'px-4 py-2 text-sm',
+    lg: 'px-6 py-3 text-base font-semibold'
   };
   
   // Variant styles

@@ -19,33 +19,33 @@ export function LanguageSwitcher() {
   };
 
   return (
-    <div className="flex gap-2">
+    <div className="flex items-center gap-1 bg-gray-100 dark:bg-gray-800 rounded-lg p-1">
       <motion.button
         onClick={() => changeLanguage('en')}
-        className={`px-3 py-1 rounded-md text-sm font-medium transition-colors ${
+        className={`px-2 py-1 rounded-md text-xs font-medium transition-colors ${
           i18n.language === 'en'
-            ? 'bg-primary text-white'
-            : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+            ? 'bg-white dark:bg-gray-700 text-gray-900 dark:text-white shadow-sm'
+            : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white'
         }`}
-        whileHover={{ scale: 1.05 }}
-        whileTap={{ scale: 0.95 }}
+        whileHover={{ scale: 1.02 }}
+        whileTap={{ scale: 0.98 }}
         aria-label="Switch to English"
       >
-        🇬🇧 EN
+        EN
       </motion.button>
       
       <motion.button
         onClick={() => changeLanguage('fr')}
-        className={`px-3 py-1 rounded-md text-sm font-medium transition-colors ${
+        className={`px-2 py-1 rounded-md text-xs font-medium transition-colors ${
           i18n.language === 'fr'
-            ? 'bg-primary text-white'
-            : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+            ? 'bg-white dark:bg-gray-700 text-gray-900 dark:text-white shadow-sm'
+            : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white'
         }`}
-        whileHover={{ scale: 1.05 }}
-        whileTap={{ scale: 0.95 }}
+        whileHover={{ scale: 1.02 }}
+        whileTap={{ scale: 0.98 }}
         aria-label="Passer au français"
       >
-        🇫🇷 FR
+        FR
       </motion.button>
     </div>
   );
