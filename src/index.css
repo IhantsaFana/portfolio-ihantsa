@@ -7,7 +7,7 @@
   --color-secondary: oklch(0.5 0.15 200);
   --color-accent: oklch(0.7 0.25 150);
   
-  /* Spacing */
+  /* Spacing - Utilise les valeurs par défaut de Tailwind */
   --spacing-xs: 0.5rem;
   --spacing-sm: 1rem;
   --spacing-md: 1.5rem;
@@ -22,49 +22,43 @@
 /* Dark mode variant */
 @custom-variant dark (&:where(.dark, .dark *));
 
-/* Base Styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* Styles personnalisés avec @layer pour éviter les conflits */
+@layer base {
+  html {
+    /* Éviter le flash de contenu non stylé */
+    color-scheme: light dark; /* Support automatique du thème système */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
 }
 
-html {
-  /* Éviter le flash de contenu non stylé */
-  color-scheme: light dark; /* Support automatique du thème système */
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
+/* Custom scrollbar avec @layer components */
+@layer components {
+  ::-webkit-scrollbar {
+    width: 7px;
+  }
 
-body {
-  font-family: var(--font-sans);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
+  ::-webkit-scrollbar-track {
+    background: oklch(0.95 0 0);
+  }
 
-/* Smooth scroll behavior */
-html {
-  scroll-behavior: smooth;
-}
+  .dark ::-webkit-scrollbar-track {
+    background: oklch(0.2 0 0);
+  }
 
-/* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 7px;
-}
+  ::-webkit-scrollbar-thumb {
+    background: oklch(0.6 0.1 250);
+    border-radius: 5px;
+  }
 
-::-webkit-scrollbar-track {
-  background: oklch(0.95 0 0);
-}
-
-.dark ::-webkit-scrollbar-track {
-  background: oklch(0.2 0 0);
-}
-
-::-webkit-scrollbar-thumb {
-  background: oklch(0.6 0.1 250);
-  border-radius: 5px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: oklch(0.5 0.15 250);
+  ::-webkit-scrollbar-thumb:hover {
+    background: oklch(0.5 0.15 250);
+  }
 }
