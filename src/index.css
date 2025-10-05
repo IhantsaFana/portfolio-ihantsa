@@ -61,4 +61,18 @@
   ::-webkit-scrollbar-thumb:hover {
     background: oklch(0.5 0.15 250);
   }
+
+  /* Animation douce de flottement pour le robot */
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-12px);
+    }
+  }
+
+  .animate-float {
+    animation: float 7s ease-in-out infinite;
+  }
 }

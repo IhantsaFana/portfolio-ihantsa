@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { LanguageSwitcher } from '@/components/ui/LanguageSwitcher';
 import { Container } from '@/components/ui/Container';
@@ -6,6 +6,21 @@ import { Container } from '@/components/ui/Container';
 export function Header() {
   const { t, i18n } = useTranslation();
   const currentLang = i18n.language;
+  const location = useLocation();
+
+  // Fonction pour vérifier si la page est active
+  const isActivePage = (path: string) => {
+    const currentPath = location.pathname;
+    
+    // Page d'accueil - vérification exacte
+    if (path === '') {
+      return currentPath === `/${currentLang}` || currentPath === `/${currentLang}/`;
+    }
+    
+    // Autres pages - vérification exacte aussi
+    const expectedPath = `/${currentLang}/${path}`;
+    return currentPath === expectedPath || currentPath === `${expectedPath}/`;
+  };
 
   const navItems = [
     { key: 'home', path: '' },
@@ -33,15 +48,28 @@ export function Header() {
 
             {/* Navigation Desktop - À gauche avec le logo */}
             <div className="hidden md:flex items-center gap-6">
-              {navItems.map((item) => (
-                <Link
-                  key={item.key}
-                  to={`/${currentLang}/${item.path}`}
-                  className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors font-medium"
-                >
-                  {t(`nav.${item.key}`)}
-                </Link>
-              ))}
+              {navItems.map((item) => {
+                const isActive = isActivePage(item.path);
+                return (
+                  <Link
+                    key={item.key}
+                    to={`/${currentLang}/${item.path}`}
+                    className={`
+                      relative font-medium transition-all duration-300 py-2 px-3 rounded-lg
+                      ${isActive 
+                        ? 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20' 
+                        : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800'
+                      }
+                    `}
+                  >
+                    {t(`nav.${item.key}`)}
+                    {/* Indicateur animé pour page active */}
+                    {isActive && (
+                      <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-1 h-1 bg-blue-600 dark:bg-blue-400 rounded-full animate-pulse"></div>
+                    )}
+                  </Link>
+                );
+              })}
             </div>
           </div>
 

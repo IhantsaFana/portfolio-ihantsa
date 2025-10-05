@@ -22,20 +22,37 @@ export function Button({
   className = '',
   disabled = false 
 }: ButtonProps) {
-  // Base styles
-  const baseStyles = 'inline-block font-medium rounded-md transition-colors text-center focus:outline-none focus:ring-2 focus:ring-offset-2';
+  // Base styles - Design moderne amélioré
+  const baseStyles = 'inline-block font-semibold rounded-lg transition-all duration-300 text-center focus:outline-none focus:ring-2 focus:ring-offset-2 transform hover:scale-105 active:scale-95';
   
-  // Size styles - Tailles réduites
+  // Size styles - Textes plus grands
   const sizeStyles = {
-    sm: 'px-3 py-1.5 text-sm',
-    md: 'px-4 py-2 text-sm',
-    lg: 'px-6 py-3 text-base font-semibold'
+    sm: 'px-4 py-2 text-sm',
+    md: 'px-5 py-2.5 text-base',
+    lg: 'px-8 py-4 text-lg font-bold'
   };
   
-  // Variant styles
+  // Variant styles - Design moderne avec gradients
   const variantStyles = {
-    primary: 'bg-blue-600 hover:bg-blue-700 text-white focus:ring-blue-500 disabled:bg-blue-300',
-    secondary: 'border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800 focus:ring-gray-500 disabled:bg-gray-100 disabled:text-gray-400'
+    primary: `
+      bg-gradient-to-r from-blue-600 to-blue-700 
+      hover:from-blue-700 hover:to-blue-800 
+      dark:from-blue-500 dark:to-blue-600 
+      dark:hover:from-blue-600 dark:hover:to-blue-700
+      text-white shadow-lg hover:shadow-xl 
+      focus:ring-blue-500 focus:ring-offset-white dark:focus:ring-offset-gray-900
+      disabled:from-blue-300 disabled:to-blue-400 disabled:shadow-none
+    `,
+    secondary: `
+      border-2 border-blue-600 dark:border-blue-400
+      text-blue-600 dark:text-blue-400
+      hover:bg-blue-600 hover:text-white hover:border-blue-600
+      dark:hover:bg-blue-400 dark:hover:text-gray-900 dark:hover:border-blue-400
+      bg-white dark:bg-gray-900
+      shadow-md hover:shadow-lg
+      focus:ring-blue-500 focus:ring-offset-white dark:focus:ring-offset-gray-900
+      disabled:border-gray-300 disabled:text-gray-400 disabled:bg-gray-100 disabled:shadow-none
+    `
   };
   
   const classes = `${baseStyles} ${sizeStyles[size]} ${variantStyles[variant]} ${className}`;
