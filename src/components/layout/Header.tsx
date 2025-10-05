@@ -1,55 +1,72 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { LanguageSwitcher } from '@/components/ui/LanguageSwitcher';
-import { motion } from 'framer-motion';
 
 export function Header() {
   const { t, i18n } = useTranslation();
   const currentLang = i18n.language;
 
   const navItems = [
-    { key: 'home', path: '' },
     { key: 'about', path: 'about' },
     { key: 'projects', path: 'projects' },
     { key: 'contact', path: 'contact' },
   ];
 
   return (
-    <motion.header
-      className="sticky top-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-800"
-      initial={{ y: -100 }}
-      animate={{ y: 0 }}
-      transition={{ duration: 0.5 }}
-    >
-      <nav className="container mx-auto px-4 py-4">
+    <header className="bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800">
+      <nav className="container mx-auto px-12 md:px-16 py-8">
         <div className="flex items-center justify-between">
-          {/* Logo */}
-          <Link
-            to={`/${currentLang}`}
-            className="text-2xl font-bold text-gray-900 dark:text-white hover:text-primary dark:hover:text-primary transition-colors"
-          >
-            OEKA
-          </Link>
+          {/* Left Section - Logo + Navigation */}
+          <div className="flex items-center gap-8">
+            {/* Logo avec favicon */}
+            <Link
+              to={`/${currentLang}`}
+              className="flex items-center hover:opacity-80 transition-opacity"
+            >
+              <img src="/favicon.svg" alt="OEKA" className="w-10 h-10" />
+            </Link>
 
-          {/* Navigation Desktop */}
-          <div className="hidden md:flex items-center gap-8">
-            {navItems.map((item) => (
-              <Link
-                key={item.key}
-                to={`/${currentLang}/${item.path}`}
-                className="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors font-medium"
-              >
-                {t(`nav.${item.key}`)}
-              </Link>
-            ))}
+            {/* Séparateur vertical */}
+            <div className="hidden md:block w-px h-6 bg-gray-300 dark:bg-gray-600"></div>
+
+            {/* Navigation Desktop - À gauche avec le logo */}
+            <div className="hidden md:flex items-center gap-8">
+              {navItems.map((item) => (
+                <Link
+                  key={item.key}
+                  to={`/${currentLang}/${item.path}`}
+                  className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors font-medium"
+                >
+                  {t(`nav.${item.key}`)}
+                </Link>
+              ))}
+            </div>
           </div>
 
-          {/* Actions */}
-          <div className="flex items-center gap-4">
+          {/* Right Section - CTA + Language */}
+          <div className="flex items-center gap-6">
+            {/* CTA Buttons - Style Grafikart - Plus grands */}
+            <div className="hidden md:flex items-center gap-2">
+              <Link
+                to={`/${currentLang}/contact`}
+                className="px-4 py-2 text-gray-600 dark:text-gray-400 hover:text-blue-600 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors font-medium rounded-md"
+              >
+                {t('nav.hireMe')}
+              </Link>
+              <span className="text-gray-400 mx-1">•</span>
+              <Link
+                to={`/${currentLang}/projects`}
+                className="px-4 py-2 text-gray-600 dark:text-gray-400 hover:text-blue-600 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors font-medium rounded-md"
+              >
+                {t('nav.discoverProjects')}
+              </Link>
+            </div>
+            
+            {/* Language Switcher */}
             <LanguageSwitcher />
           </div>
         </div>
       </nav>
-    </motion.header>
+    </header>
   );
 }

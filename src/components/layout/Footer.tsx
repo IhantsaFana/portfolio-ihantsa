@@ -14,11 +14,11 @@ export function Footer() {
             <p>&copy; {currentYear} OEKA. {t('footer.rights')}</p>
           </div>
 
-          {/* Center Section - Links (style Grafikart) */}
+          {/* Center Section - Social Links */}
           <div className="flex items-center gap-6 text-sm">
             <a
               href="mailto:contact@oeka.mg"
-              className="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors"
+              className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
             >
               Contact
             </a>
@@ -26,22 +26,38 @@ export function Footer() {
               href="https://github.com/IhantsaFana"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors"
+              className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
             >
               GitHub
+            </a>
+            <a
+              href="https://x.com/IhantsaFana"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
+            >
+              X
             </a>
             <a
               href="https://linkedin.com/in/ihantsa"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors"
+              className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
             >
               LinkedIn
+            </a>
+            <a
+              href="https://facebook.com/ihants"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
+            >
+              Facebook
             </a>
           </div>
 
           {/* Right Section - Theme Toggle */}
-          <div className="flex items-center gap-4">
+          <div className="flex items-center">
             <ThemeToggle />
           </div>
         </div>

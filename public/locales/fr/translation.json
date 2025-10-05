@@ -3,38 +3,53 @@
     "home": "Accueil",
     "about": "À propos",
     "projects": "Projets",
-    "contact": "Contact"
+    "contact": "Contact",
+    "hireMe": "Me recruter",
+    "discoverProjects": "Découvrir mes projets"
   },
   "home": {
-    "title": "Bienvenue sur mon Portfolio",
-    "subtitle": "Développeur Full Stack",
-    "description": "Passionné par la création d'applications web modernes et performantes",
-    "cta": "Voir mes réalisations"
+    "title": "Ihantsa RAKOTONDRANAIVO",
+    "subtitle": "Développeur Full-Stack & IA",
+    "description": "Passionné par le développement web et mobile, je crée des applications modernes avec React, Next.js, Flutter et explore les possibilités de l'intelligence artificielle.",
+    "cta": "Voir mes projets",
+    "intro": "Développeur passionné basé à Madagascar, je me spécialise dans la création d'applications web et mobile modernes.",
+    "heroTitle": "Créez de nouvelles applications.",
+    "heroHighlight": "nouvelles"
   },
   "about": {
-    "title": "À propos de moi",
-    "description": "Je suis un développeur full stack passionné par les technologies web et la création d'expériences utilisateur exceptionnelles."
+    "title": "À propos",
+    "description": "Développeur Full-Stack passionné par les technologies modernes et l'intelligence artificielle.",
+    "skills": {
+      "web": "Développement Web",
+      "mobile": "Développement Mobile", 
+      "ai": "Intelligence Artificielle",
+      "webDesc": "React, Next.js, TypeScript, Tailwind CSS",
+      "mobileDesc": "Flutter, React Native, développement cross-platform",
+      "aiDesc": "Python, Machine Learning, intégration d'IA"
+    }
   },
   "projects": {
-    "title": "Mes Projets",
+    "title": "Projets",
     "viewProject": "Voir le projet",
-    "sourceCode": "Code source"
+    "sourceCode": "Code source",
+    "recent": "Projets récents"
   },
   "contact": {
-    "title": "Me Contacter",
+    "title": "Contact",
     "name": "Nom",
-    "email": "Email",
+    "email": "Email", 
     "message": "Message",
     "send": "Envoyer",
     "success": "Message envoyé avec succès !",
-    "error": "Une erreur s'est produite. Veuillez réessayer."
+    "error": "Erreur lors de l'envoi du message.",
+    "intro": "Vous avez un projet ? Une question ? N'hésitez pas à me contacter."
   },
   "footer": {
-    "rights": "Tous droits réservés"
+    "rights": "Tous droits réservés."
   },
   "meta": {
-    "title": "Portfolio - Développeur Full Stack",
-    "description": "Portfolio de développeur Full Stack présentant des projets et applications web modernes",
-    "keywords": "développeur, full stack, react, typescript, portfolio"
+    "title": "OEKA - Ihantsa RAKOTONDRANAIVO",
+    "description": "Développeur Full-Stack & IA spécialisé en React, Next.js, Flutter, Python. Création d'applications web et mobile modernes.",
+    "keywords": "développeur, React, Next.js, Flutter, Python, IA, TypeScript, portfolio, Madagascar"
   }
 }
