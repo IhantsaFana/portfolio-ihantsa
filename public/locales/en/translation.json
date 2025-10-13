@@ -1,0 +1,260 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "blog": "Blog",
+    "hireMe": "Hire me",
+    "discoverProjects": "Discover projects"
+  },
+  "home": {
+    "title": "Ihantsa RAKOTONDRANAIVO",
+    "subtitle": "Full-Stack Developer & AI",
+    "description": "Passionate about web and mobile development, I create modern applications with React, Next.js, Flutter and explore the possibilities of artificial intelligence.",
+    "cta": "View my projects",
+    "intro": "Passionate developer based in Madagascar, I specialize in creating modern web and mobile applications.",
+    "heroTitle": "Build modern applications.",
+    "heroHighlight": "modern"
+  },
+  "about": {
+    "title": "About",
+    "description": "Full-Stack developer passionate about modern technologies and artificial intelligence.",
+    "seo": {
+      "description": "Learn more about Ihantsa RAKOTONDRANAIVO, Full-Stack Developer & AI Engineer specialized in React, Next.js, Flutter, Python.",
+      "keywords": "about, developer, full-stack, AI engineer, React, Next.js, Flutter, Python, experience, skills"
+    },
+    "intro": {
+      "paragraph1": "Hello! I'm Ihantsa RAKOTONDRANAIVO, a passionate Full-Stack Developer & AI Engineer based in Madagascar. I specialize in creating modern web and mobile applications using cutting-edge technologies.",
+      "paragraph2": "With over 5 years of experience in software development, I've worked on diverse projects ranging from e-commerce platforms to AI-powered applications. I'm particularly passionate about React ecosystem, Flutter for mobile development, and integrating AI solutions.",
+      "paragraph3": "When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community. I believe in continuous learning and staying up-to-date with the latest industry trends."
+    },
+    "stats": {
+      "experience": "Years Exp.",
+      "projects": "Projects",
+      "technologies": "Technologies"
+    },
+    "skills": {
+      "title": "Skills",
+      "subtitle": "Technologies and tools I master",
+      "web": "Web Development",
+      "mobile": "Mobile Development",
+      "ai": "Artificial Intelligence", 
+      "webDesc": "React, Next.js, TypeScript, Tailwind CSS",
+      "mobileDesc": "Flutter, React Native, cross-platform development",
+      "aiDesc": "Python, Machine Learning, AI integration"
+    },
+    "technologies": {
+      "title": "Technologies",
+      "subtitle": "Tools and frameworks I use daily"
+    },
+    "timeline": {
+      "title": "Professional Experience",
+      "subtitle": "My journey as a developer and the experiences that shaped my expertise.",
+      "current": {
+        "title": "Full-Stack Developer & AI Engineer",
+        "company": "Freelance",
+        "description": "Developing modern web and mobile applications for clients worldwide. Specializing in React, Next.js, Flutter, and AI integration."
+      },
+      "previous1": {
+        "title": "Senior Frontend Developer",
+        "company": "Tech Company",
+        "description": "Led frontend development for multiple projects, mentored junior developers, and implemented modern development practices."
+      },
+      "previous2": {
+        "title": "Junior Full-Stack Developer",
+        "company": "Startup",
+        "description": "Developed full-stack applications, learned modern frameworks, and contributed to product development from conception to deployment."
+      }
+    },
+    "certifications": {
+      "title": "Certifications & Education",
+      "subtitle": "Continuous learning and professional development achievements.",
+      "verified": "Verified",
+      "react": {
+        "name": "React Advanced Patterns",
+        "issuer": "React Training"
+      },
+      "aws": {
+        "name": "AWS Cloud Practitioner",
+        "issuer": "Amazon Web Services"
+      },
+      "python": {
+        "name": "Python for Data Science",
+        "issuer": "DataCamp"
+      },
+      "flutter": {
+        "name": "Flutter Development",
+        "issuer": "Google Developers"
+      }
+    },
+    "hobbies": {
+      "title": "Beyond Coding",
+      "subtitle": "What I do when I'm not building applications.",
+      "coding": {
+        "name": "Open Source",
+        "description": "Contributing to open-source projects and building tools for the developer community."
+      },
+      "photography": {
+        "name": "Photography",
+        "description": "Capturing moments and exploring the world through the lens of my camera."
+      },
+      "music": {
+        "name": "Music",
+        "description": "Playing guitar and discovering new artists across different genres."
+      },
+      "travel": {
+        "name": "Travel",
+        "description": "Exploring new cultures, meeting people, and finding inspiration in different places."
+      },
+      "reading": {
+        "name": "Reading",
+        "description": "Always learning through books about technology, business, and personal development."
+      },
+      "gaming": {
+        "name": "Gaming",
+        "description": "Enjoying strategic games and exploring virtual worlds in my free time."
+      }
+    },
+    "quote": "Code is like humor. When you have to explain it, it's bad."
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "A showcase of my recent work and the technologies I've been exploring.",
+    "viewProject": "View project",
+    "sourceCode": "Source code",
+    "recent": "Recent projects",
+    "featured": "Featured",
+    "other": "Other Projects",
+    "viewLive": "Live Demo",
+    "viewCode": "View Code",
+    "learnMore": "Learn More",
+    "seo": {
+      "description": "Explore Ihantsa RAKOTONDRANAIVO's portfolio of web and mobile applications built with React, Next.js, Flutter, Python and AI technologies.",
+      "keywords": "projects, portfolio, React, Next.js, Flutter, Python, AI, web development, mobile development, full-stack"
+    },
+    "stats": {
+      "total": "Total Projects",
+      "featured": "Featured",
+      "technologies": "Technologies"
+    },
+    "categories": {
+      "all": "All",
+      "web": "Web",
+      "mobile": "Mobile",
+      "ai": "AI",
+      "fullstack": "Full-Stack"
+    },
+    "filters": {
+      "categories": "Filter by Category",
+      "technologies": "Filter by Technology",
+      "showing": "Showing results"
+    },
+    "noResults": {
+      "title": "No projects found",
+      "description": "Try adjusting your filters to see more projects.",
+      "reset": "Reset Filters"
+    },
+    "modal": {
+      "description": "Description",
+      "challenge": "Challenge",
+      "solution": "Solution",
+      "technologies": "Technologies Used"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message", 
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully! I'll get back to you soon.",
+    "error": "Error sending message. Please try again.",
+    "intro": "Have a project? A question? Feel free to contact me.",
+    "privacy": "Your information is secure and will only be used to respond to your inquiry.",
+    "seo": {
+      "description": "Contact Ihantsa RAKOTONDRANAIVO for web development, mobile apps, AI projects. Available for freelance work and collaborations.",
+      "keywords": "contact, hire developer, freelance, web development, mobile apps, AI projects, collaboration"
+    },
+    "form": {
+      "title": "Send me a message"
+    },
+    "placeholders": {
+      "name": "Your full name",
+      "email": "your.email@example.com",
+      "message": "Tell me about your project or question..."
+    },
+    "validation": {
+      "nameRequired": "Name is required",
+      "nameMinLength": "Name must be at least 2 characters",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "messageRequired": "Message is required",
+      "messageMinLength": "Message must be at least 10 characters",
+      "formErrors": "Please fix the errors above"
+    },
+    "emailjs": {
+      "notConfigured": "Email service is not configured yet.",
+      "useEmailClient": "Would you like to open your email client instead?"
+    },
+    "emailClient": {
+      "opened": "Email client opened. Please send your message from there."
+    },
+    "info": {
+      "title": "Let's connect",
+      "subtitle": "I'm always interested in new opportunities and interesting projects. Let's discuss how we can work together.",
+      "email": {
+        "label": "Email",
+        "description": "Best way to reach me for business inquiries"
+      },
+      "linkedin": {
+        "label": "LinkedIn",
+        "description": "Connect with me professionally"
+      },
+      "github": {
+        "label": "GitHub",
+        "description": "Check out my code and contributions"
+      },
+      "phone": {
+        "label": "Phone",
+        "description": "For urgent matters only"
+      }
+    },
+    "availability": {
+      "status": "Available for new projects",
+      "description": "Currently accepting freelance work and interesting collaborations"
+    },
+    "social": {
+      "title": "Follow me"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Quick answers to common questions about working with me.",
+      "q1": {
+        "question": "What's your typical response time?",
+        "answer": "I usually respond within 24 hours during business days. For urgent matters, feel free to call."
+      },
+      "q2": {
+        "question": "Do you work with international clients?",
+        "answer": "Absolutely! I work with clients worldwide and am comfortable with different time zones."
+      },
+      "q3": {
+        "question": "What technologies do you specialize in?",
+        "answer": "I specialize in React, Next.js, TypeScript, Flutter, Python, and AI integration. Always learning new technologies."
+      },
+      "q4": {
+        "question": "Do you offer ongoing support?",
+        "answer": "Yes, I provide maintenance and support services for all projects I develop. Let's discuss your needs."
+      }
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "meta": {
+    "title": "OEKA - Ihantsa RAKOTONDRANAIVO",
+    "description": "Full-Stack Developer & AI specialized in React, Next.js, Flutter, Python. Creating modern web and mobile applications.",
+    "keywords": "developer, React, Next.js, Flutter, Python, AI, TypeScript, portfolio, Madagascar"
+  }
+}

@@ -1,0 +1,9 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://oeka.mg/sitemap.xml
+
+# Disallow admin or private paths (if any in the future)
+# Disallow: /admin/

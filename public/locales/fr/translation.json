@@ -1,0 +1,260 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "contact": "Contact",
+    "blog": "Blog",
+    "hireMe": "Me recruter",
+    "discoverProjects": "Découvrir mes projets"
+  },
+  "home": {
+    "title": "Ihantsa RAKOTONDRANAIVO",
+    "subtitle": "Développeur Full-Stack & IA",
+    "description": "Passionné par le développement web et mobile, je crée des applications modernes avec React, Next.js, Flutter et explore les possibilités de l'intelligence artificielle.",
+    "cta": "Voir mes projets",
+    "intro": "Développeur passionné basé à Madagascar, je me spécialise dans la création d'applications web et mobile modernes.",
+    "heroTitle": "Créez de nouvelles applications.",
+    "heroHighlight": "nouvelles"
+  },
+  "about": {
+    "title": "À propos",
+    "description": "Développeur Full-Stack passionné par les technologies modernes et l'intelligence artificielle.",
+    "seo": {
+      "description": "Découvrez Ihantsa RAKOTONDRANAIVO, Développeur Full-Stack & IA spécialisé en React, Next.js, Flutter, Python.",
+      "keywords": "à propos, développeur, full-stack, ingénieur IA, React, Next.js, Flutter, Python, expérience, compétences"
+    },
+    "intro": {
+      "paragraph1": "Salut ! Je suis Ihantsa RAKOTONDRANAIVO, un Développeur Full-Stack & Ingénieur IA passionné basé à Madagascar. Je me spécialise dans la création d'applications web et mobile modernes utilisant des technologies de pointe.",
+      "paragraph2": "Avec plus de 5 ans d'expérience en développement logiciel, j'ai travaillé sur des projets divers allant des plateformes e-commerce aux applications alimentées par l'IA. Je suis particulièrement passionné par l'écosystème React, Flutter pour le développement mobile, et l'intégration de solutions IA.",
+      "paragraph3": "Quand je ne code pas, vous me trouverez en train d'explorer de nouvelles technologies, de contribuer à des projets open-source, ou de partager des connaissances avec la communauté des développeurs. Je crois en l'apprentissage continu et à rester à jour avec les dernières tendances de l'industrie."
+    },
+    "stats": {
+      "experience": "Années Exp.",
+      "projects": "Projets",
+      "technologies": "Technologies"
+    },
+    "skills": {
+      "title": "Compétences",
+      "subtitle": "Technologies et outils que je maîtrise",
+      "web": "Développement Web",
+      "webDesc": "Applications web modernes et performantes",
+      "mobile": "Développement Mobile",
+      "mobileDesc": "Flutter, React Native, développement cross-platform",
+      "ai": "Intelligence Artificielle",
+      "aiDesc": "Python, Machine Learning, intégration d'IA"
+    },
+    "technologies": {
+      "title": "Technologies",
+      "subtitle": "Les outils et frameworks que j'utilise au quotidien"
+    },
+    "timeline": {
+      "title": "Expérience Professionnelle",
+      "subtitle": "Mon parcours en tant que développeur et les expériences qui ont façonné mon expertise.",
+      "current": {
+        "title": "Développeur Full-Stack & Ingénieur IA",
+        "company": "Freelance",
+        "description": "Développement d'applications web et mobile modernes pour des clients du monde entier. Spécialisé en React, Next.js, Flutter, et intégration d'IA."
+      },
+      "previous1": {
+        "title": "Développeur Frontend Senior",
+        "company": "Entreprise Tech",
+        "description": "Direction du développement frontend pour plusieurs projets, mentorat de développeurs juniors, et implémentation de pratiques de développement modernes."
+      },
+      "previous2": {
+        "title": "Développeur Full-Stack Junior",
+        "company": "Startup",
+        "description": "Développement d'applications full-stack, apprentissage de frameworks modernes, et contribution au développement produit de la conception au déploiement."
+      }
+    },
+    "certifications": {
+      "title": "Certifications & Formation",
+      "subtitle": "Apprentissage continu et réalisations de développement professionnel.",
+      "verified": "Vérifié",
+      "react": {
+        "name": "React Patterns Avancés",
+        "issuer": "React Training"
+      },
+      "aws": {
+        "name": "AWS Cloud Practitioner",
+        "issuer": "Amazon Web Services"
+      },
+      "python": {
+        "name": "Python pour la Data Science",
+        "issuer": "DataCamp"
+      },
+      "flutter": {
+        "name": "Développement Flutter",
+        "issuer": "Google Developers"
+      }
+    },
+    "hobbies": {
+      "title": "Au-delà du Code",
+      "subtitle": "Ce que je fais quand je ne développe pas d'applications.",
+      "coding": {
+        "name": "Open Source",
+        "description": "Contribution à des projets open-source et création d'outils pour la communauté des développeurs."
+      },
+      "photography": {
+        "name": "Photographie",
+        "description": "Capturer des moments et explorer le monde à travers l'objectif de mon appareil photo."
+      },
+      "music": {
+        "name": "Musique",
+        "description": "Jouer de la guitare et découvrir de nouveaux artistes à travers différents genres."
+      },
+      "travel": {
+        "name": "Voyage",
+        "description": "Explorer de nouvelles cultures, rencontrer des gens, et trouver l'inspiration dans différents endroits."
+      },
+      "reading": {
+        "name": "Lecture",
+        "description": "Toujours apprendre à travers des livres sur la technologie, les affaires, et le développement personnel."
+      },
+      "gaming": {
+        "name": "Jeux Vidéo",
+        "description": "Profiter de jeux stratégiques et explorer des mondes virtuels pendant mon temps libre."
+      }
+    },
+    "quote": "Le code c'est comme l'humour. Quand on doit l'expliquer, c'est qu'il est mauvais."
+  },
+  "projects": {
+    "title": "Projets",
+    "subtitle": "Une vitrine de mon travail récent et des technologies que j'ai explorées.",
+    "viewProject": "Voir le projet",
+    "sourceCode": "Code source",
+    "recent": "Projets récents",
+    "featured": "À la une",
+    "other": "Autres Projets",
+    "viewLive": "Démo Live",
+    "viewCode": "Voir le Code",
+    "learnMore": "En savoir plus",
+    "seo": {
+      "description": "Explorez le portfolio d'Ihantsa RAKOTONDRANAIVO avec des applications web et mobile construites avec React, Next.js, Flutter, Python et technologies IA.",
+      "keywords": "projets, portfolio, React, Next.js, Flutter, Python, IA, développement web, développement mobile, full-stack"
+    },
+    "stats": {
+      "total": "Projets Total",
+      "featured": "À la une",
+      "technologies": "Technologies"
+    },
+    "categories": {
+      "all": "Tous",
+      "web": "Web",
+      "mobile": "Mobile",
+      "ai": "IA",
+      "fullstack": "Full-Stack"
+    },
+    "filters": {
+      "categories": "Filtrer par Catégorie",
+      "technologies": "Filtrer par Technologie",
+      "showing": "Résultats affichés"
+    },
+    "noResults": {
+      "title": "Aucun projet trouvé",
+      "description": "Essayez d'ajuster vos filtres pour voir plus de projets.",
+      "reset": "Réinitialiser les Filtres"
+    },
+    "modal": {
+      "description": "Description",
+      "challenge": "Défi",
+      "solution": "Solution",
+      "technologies": "Technologies utilisées"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "name": "Nom",
+    "email": "Email", 
+    "message": "Message",
+    "send": "Envoyer le message",
+    "sending": "Envoi en cours...",
+    "success": "Message envoyé avec succès ! Je vous répondrai bientôt.",
+    "error": "Erreur lors de l'envoi du message. Veuillez réessayer.",
+    "intro": "Vous avez un projet ? Une question ? N'hésitez pas à me contacter.",
+    "privacy": "Vos informations sont sécurisées et ne seront utilisées que pour répondre à votre demande.",
+    "seo": {
+      "description": "Contactez Ihantsa RAKOTONDRANAIVO pour le développement web, applications mobiles, projets IA. Disponible pour missions freelance et collaborations.",
+      "keywords": "contact, embaucher développeur, freelance, développement web, applications mobiles, projets IA, collaboration"
+    },
+    "form": {
+      "title": "Envoyez-moi un message"
+    },
+    "placeholders": {
+      "name": "Votre nom complet",
+      "email": "votre.email@exemple.com",
+      "message": "Parlez-moi de votre projet ou question..."
+    },
+    "validation": {
+      "nameRequired": "Le nom est requis",
+      "nameMinLength": "Le nom doit contenir au moins 2 caractères",
+      "emailRequired": "L'email est requis",
+      "emailInvalid": "Veuillez entrer une adresse email valide",
+      "messageRequired": "Le message est requis",
+      "messageMinLength": "Le message doit contenir au moins 10 caractères",
+      "formErrors": "Veuillez corriger les erreurs ci-dessus"
+    },
+    "emailjs": {
+      "notConfigured": "Le service email n'est pas encore configuré.",
+      "useEmailClient": "Souhaitez-vous ouvrir votre client email à la place ?"
+    },
+    "emailClient": {
+      "opened": "Client email ouvert. Veuillez envoyer votre message depuis là."
+    },
+    "info": {
+      "title": "Restons connectés",
+      "subtitle": "Je suis toujours intéressé par de nouvelles opportunités et projets intéressants. Discutons de comment nous pouvons travailler ensemble.",
+      "email": {
+        "label": "Email",
+        "description": "Meilleur moyen de me joindre pour les demandes professionnelles"
+      },
+      "linkedin": {
+        "label": "LinkedIn",
+        "description": "Connectez-vous avec moi professionnellement"
+      },
+      "github": {
+        "label": "GitHub",
+        "description": "Consultez mon code et mes contributions"
+      },
+      "phone": {
+        "label": "Téléphone",
+        "description": "Pour les questions urgentes uniquement"
+      }
+    },
+    "availability": {
+      "status": "Disponible pour nouveaux projets",
+      "description": "J'accepte actuellement les missions freelance et collaborations intéressantes"
+    },
+    "social": {
+      "title": "Suivez-moi"
+    },
+    "faq": {
+      "title": "Questions Fréquemment Posées",
+      "subtitle": "Réponses rapides aux questions courantes sur le travail avec moi.",
+      "q1": {
+        "question": "Quel est votre temps de réponse habituel ?",
+        "answer": "Je réponds généralement dans les 24 heures pendant les jours ouvrables. Pour les questions urgentes, n'hésitez pas à appeler."
+      },
+      "q2": {
+        "question": "Travaillez-vous avec des clients internationaux ?",
+        "answer": "Absolument ! Je travaille avec des clients du monde entier et suis à l'aise avec différents fuseaux horaires."
+      },
+      "q3": {
+        "question": "Dans quelles technologies vous spécialisez-vous ?",
+        "answer": "Je me spécialise en React, Next.js, TypeScript, Flutter, Python, et intégration d'IA. J'apprends toujours de nouvelles technologies."
+      },
+      "q4": {
+        "question": "Offrez-vous un support continu ?",
+        "answer": "Oui, je fournis des services de maintenance et support pour tous les projets que je développe. Discutons de vos besoins."
+      }
+    }
+  },
+  "footer": {
+    "rights": "Tous droits réservés."
+  },
+  "meta": {
+    "title": "OEKA - Ihantsa RAKOTONDRANAIVO",
+    "description": "Développeur Full-Stack & IA spécialisé en React, Next.js, Flutter, Python. Création d'applications web et mobile modernes.",
+    "keywords": "développeur, React, Next.js, Flutter, Python, IA, TypeScript, portfolio, Madagascar"
+  }
+}
