@@ -70,14 +70,19 @@ export function Button({
     );
   }
   
-  // Render as external link
+  // Render as external link or anchor
   if (href && !disabled) {
+    // Check if it's an internal anchor link (starts with #)
+    const isInternalAnchor = href.startsWith('#');
+    
     return (
       <a 
         href={href} 
         className={finalClasses}
-        target="_blank" 
-        rel="noopener noreferrer"
+        {...(!isInternalAnchor && {
+          target: "_blank",
+          rel: "noopener noreferrer"
+        })}
       >
         {children}
       </a>
