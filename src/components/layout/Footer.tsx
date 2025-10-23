@@ -17,7 +17,7 @@ export function Footer() {
           {/* Center Section - Social Links */}
           <div className="flex items-center gap-6 text-sm">
             <a
-              href="mailto:contact@oeka.mg"
+              href="mailto:ihantsarakotondranaivo@gmail.com"
               className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
             >
               Contact

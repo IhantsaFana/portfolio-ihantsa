@@ -15,25 +15,32 @@ export function Timeline() {
 
   const experiences: TimelineItem[] = [
     {
-      year: '2024 - Present',
-      title: t('about.timeline.current.title'),
-      company: t('about.timeline.current.company'),
-      description: t('about.timeline.current.description'),
-      technologies: ['React', 'Next.js', 'TypeScript', 'Flutter', 'Python']
+      year: 'Mai - Sept 2025',
+      title: t('about.timeline.tourmada.title'),
+      company: t('about.timeline.tourmada.company'),
+      description: t('about.timeline.tourmada.description'),
+      technologies: ['Django', 'React', 'Flutter', 'PostgreSQL', 'Gemini API']
     },
     {
-      year: '2023 - 2024',
-      title: t('about.timeline.previous1.title'),
-      company: t('about.timeline.previous1.company'),
-      description: t('about.timeline.previous1.description'),
-      technologies: ['React', 'Node.js', 'MongoDB', 'AWS']
+      year: '2024',
+      title: t('about.timeline.armh.title'),
+      company: t('about.timeline.armh.company'),
+      description: t('about.timeline.armh.description'),
+      technologies: ['React', 'Next.js', 'Tailwind CSS', 'SEO']
     },
     {
-      year: '2022 - 2023',
-      title: t('about.timeline.previous2.title'),
-      company: t('about.timeline.previous2.company'),
-      description: t('about.timeline.previous2.description'),
-      technologies: ['JavaScript', 'Vue.js', 'PHP', 'MySQL']
+      year: 'Mars - Mai 2024',
+      title: t('about.timeline.lutherienne.title'),
+      company: t('about.timeline.lutherienne.company'),
+      description: t('about.timeline.lutherienne.description'),
+      technologies: ['Analyse', 'Optimisation', 'Gestion IT']
+    },
+    {
+      year: '2025',
+      title: t('about.timeline.hackathon.title'),
+      company: t('about.timeline.hackathon.company'),
+      description: t('about.timeline.hackathon.description'),
+      technologies: ['React', 'Django', 'Gemini API', 'IA']
     }
   ];
 

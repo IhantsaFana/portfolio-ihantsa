@@ -16,15 +16,15 @@ export function ContactInfo() {
     {
       icon: FaEnvelope,
       label: t('contact.info.email.label'),
-      value: 'contact@oeka.mg',
-      link: 'mailto:contact@oeka.mg',
+      value: 'ihantsarakotondranaivo@gmail.com',
+      link: 'mailto:ihantsarakotondranaivo@gmail.com',
       description: t('contact.info.email.description')
     },
     {
       icon: FaLinkedin,
       label: t('contact.info.linkedin.label'),
       value: 'LinkedIn',
-      link: 'https://linkedin.com/in/ihantsa-rakotondranaivo',
+      link: 'https://linkedin.com/in/ihantsa',
       description: t('contact.info.linkedin.description')
     },
     {
@@ -37,7 +37,7 @@ export function ContactInfo() {
     {
       icon: FaPhone,
       label: t('contact.info.phone.label'),
-      value: '+261 38 47 025 32',
+      value: '+261 37 64 375 65',
       link: 'tel:+261384702532',
       description: t('contact.info.phone.description')
     }
@@ -119,7 +119,7 @@ export function ContactInfo() {
             <FaTwitter className="w-5 h-5" />
           </a>
           <a
-            href="https://linkedin.com/in/ihantsa-rakotondranaivo"
+            href="https://linkedin.com/in/ihantsa"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 bg-blue-700 hover:bg-blue-800 text-white rounded-full flex items-center justify-center transition-colors"

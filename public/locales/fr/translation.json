@@ -57,20 +57,25 @@
     "timeline": {
       "title": "Expérience Professionnelle",
       "subtitle": "Mon parcours en tant que développeur et les expériences qui ont façonné mon expertise.",
-      "current": {
-        "title": "Développeur Full-Stack & Ingénieur IA",
-        "company": "Freelance",
-        "description": "Développement d'applications web et mobile modernes pour des clients du monde entier. Spécialisé en React, Next.js, Flutter, et intégration d'IA."
+      "tourmada": {
+        "title": "Développeur Full-Stack Web & Mobile (Stage)",
+        "company": "Tourmada",
+        "description": "Conçu et déployé la plateforme Tourmada avec Django, React, Flutter, PostgreSQL et Gemini API. Création d'une solution touristique complète avec interfaces web et mobile."
       },
-      "previous1": {
-        "title": "Développeur Frontend Senior",
-        "company": "Entreprise Tech",
-        "description": "Direction du développement frontend pour plusieurs projets, mentorat de développeurs juniors, et implémentation de pratiques de développement modernes."
+      "armh": {
+        "title": "Développeur Web Freelance",
+        "company": "ARMH Consulting",
+        "description": "Développement de sites web responsive avec optimisation UX et SEO basique. Livraison de solutions web modernes pour divers clients."
       },
-      "previous2": {
-        "title": "Développeur Full-Stack Junior",
-        "company": "Startup",
-        "description": "Développement d'applications full-stack, apprentissage de frameworks modernes, et contribution au développement produit de la conception au déploiement."
+      "lutherienne": {
+        "title": "Responsable Informatique (Stage)",
+        "company": "Imprimerie Luthérienne, Antananarivo",
+        "description": "Analyse des flux de production et déploiement d'un système d'optimisation. Gestion du parc informatique et amélioration de l'efficacité opérationnelle."
+      },
+      "hackathon": {
+        "title": "Évaluation Assistée par IA - Hackathon ESMIA 2025",
+        "company": "Projet",
+        "description": "Création d'un prototype React/Django avec Gemini API pour rendre les examens interactifs. Développement d'une plateforme d'évaluation innovante alimentée par l'IA."
       }
     },
     "certifications": {

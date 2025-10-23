@@ -19,7 +19,7 @@ export function StructuredData({ type = 'person' }: StructuredDataProps) {
     "image": "https://oeka.mg/profile.jpg",
     "sameAs": [
       "https://github.com/IhantsaFana",
-      "https://linkedin.com/in/ihantsa-rakotondranaivo",
+      "https://linkedin.com/in/ihantsa",
       // Ajoutez vos autres réseaux sociaux
     ],
     "jobTitle": "Full-Stack Developer & AI Engineer",

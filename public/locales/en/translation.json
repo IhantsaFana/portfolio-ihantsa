@@ -57,20 +57,25 @@
     "timeline": {
       "title": "Professional Experience",
       "subtitle": "My journey as a developer and the experiences that shaped my expertise.",
-      "current": {
-        "title": "Full-Stack Developer & AI Engineer",
-        "company": "Freelance",
-        "description": "Developing modern web and mobile applications for clients worldwide. Specializing in React, Next.js, Flutter, and AI integration."
+      "tourmada": {
+        "title": "Full-Stack Web & Mobile Developer (Internship)",
+        "company": "Tourmada",
+        "description": "Designed and deployed the Tourmada platform using Django, React, Flutter, PostgreSQL, and Gemini API. Built a complete tourism solution with web and mobile interfaces."
       },
-      "previous1": {
-        "title": "Senior Frontend Developer",
-        "company": "Tech Company",
-        "description": "Led frontend development for multiple projects, mentored junior developers, and implemented modern development practices."
+      "armh": {
+        "title": "Freelance Web Developer",
+        "company": "ARMH Consulting",
+        "description": "Developed responsive websites with focus on UX optimization and basic SEO implementation. Delivered modern web solutions for various clients."
       },
-      "previous2": {
-        "title": "Junior Full-Stack Developer",
-        "company": "Startup",
-        "description": "Developed full-stack applications, learned modern frameworks, and contributed to product development from conception to deployment."
+      "lutherienne": {
+        "title": "IT Manager (Internship)",
+        "company": "Imprimerie Luthérienne, Antananarivo",
+        "description": "Analyzed production workflows and deployed optimization systems. Managed IT infrastructure and improved operational efficiency."
+      },
+      "hackathon": {
+        "title": "AI-Assisted Evaluation - Hackathon ESMIA 2025",
+        "company": "Project",
+        "description": "Built a React/Django prototype with Gemini API to make exams interactive. Developed an innovative AI-powered assessment platform."
       }
     },
     "certifications": {
