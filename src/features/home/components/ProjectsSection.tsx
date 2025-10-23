@@ -25,9 +25,9 @@ export function ProjectsSection() {
     setSelectedProject(null);
   };
   
-  // Afficher seulement les projets featured sur la homepage
+  // Afficher seulement 3 projets sur la homepage
   const featuredProjects = useMemo(() => {
-    return projectsData.filter(project => project.featured).slice(0, 6);
+    return projectsData.slice(0, 3);
   }, []);
 
   return (
