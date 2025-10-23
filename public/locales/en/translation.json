@@ -42,7 +42,13 @@
       "ai": "Artificial Intelligence", 
       "webDesc": "React, Next.js, TypeScript, Tailwind CSS",
       "mobileDesc": "Flutter, React Native, cross-platform development",
-      "aiDesc": "Python, Machine Learning, AI integration"
+      "aiDesc": "Python, Machine Learning, AI integration",
+      "stats": {
+        "technologies": "Technologies",
+        "experience": "Years Exp.",
+        "projects": "Projects",
+        "certifications": "Certifications"
+      }
     },
     "technologies": {
       "title": "Technologies",

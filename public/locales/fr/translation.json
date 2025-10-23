@@ -38,11 +38,17 @@
       "title": "Compétences",
       "subtitle": "Technologies et outils que je maîtrise",
       "web": "Développement Web",
-      "webDesc": "Applications web modernes et performantes",
       "mobile": "Développement Mobile",
-      "mobileDesc": "Flutter, React Native, développement cross-platform",
       "ai": "Intelligence Artificielle",
-      "aiDesc": "Python, Machine Learning, intégration d'IA"
+      "webDesc": "React, Next.js, TypeScript, Tailwind CSS",
+      "mobileDesc": "Flutter, React Native, développement cross-platform",
+      "aiDesc": "Python, Machine Learning, intégration d'IA",
+      "stats": {
+        "technologies": "Technologies",
+        "experience": "Années Exp.",
+        "projects": "Projets",
+        "certifications": "Certifications"
+      }
     },
     "technologies": {
       "title": "Technologies",
