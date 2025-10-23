@@ -47,7 +47,7 @@ export function Footer() {
               LinkedIn
             </a>
             <a
-              href="https://facebook.com/ihants"
+              href="https://facebook.com/ihantsarakoto"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
