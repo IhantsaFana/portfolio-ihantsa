@@ -1,37 +1,5 @@
 {
-  "version": 2,
-  "routes": [
-    {
-      "src": "/sitemap.xml",
-      "dest": "/sitemap.xml"
-    },
-    {
-      "src": "/robots.txt",
-      "dest": "/robots.txt"
-    },
-    {
-      "src": "/static/(.*)",
-      "dest": "/static/$1"
-    },
-    {
-      "src": "/(fr|en)/:path*",
-      "dest": "/:path*?lang=$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/"
-    }
-  ],
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": { "distDir": "dist" }
-    }
-  ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/" }
-  ],
-  "trailingSlash": false,
-  "cleanUrls": true
+  ]
 }
