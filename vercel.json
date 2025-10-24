@@ -29,6 +29,9 @@
       "config": { "distDir": "dist" }
     }
   ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ],
   "trailingSlash": false,
   "cleanUrls": true
 }
