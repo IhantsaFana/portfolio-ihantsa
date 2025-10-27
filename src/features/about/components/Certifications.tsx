@@ -1,11 +1,9 @@
 import { useTranslation } from 'react-i18next';
 import { Container } from '@/components/ui/Container';
 import { 
-  FaCode, 
-  FaTerminal, 
-  FaMobile,
-  FaCheckCircle,
-  FaCloud
+  FaGraduationCap,
+  FaLanguage,
+  FaCheckCircle
 } from 'react-icons/fa';
 
 interface Certification {
@@ -21,31 +19,24 @@ export function Certifications() {
 
   const certifications: Certification[] = [
     {
-      name: t('about.certifications.react.name'),
-      issuer: t('about.certifications.react.issuer'),
+      name: t('certifications.informatique.name'),
+      issuer: t('certifications.informatique.issuer'),
+      year: '2025',
+      icon: FaGraduationCap,
+      link: '#'
+    },
+    {
+      name: t('certifications.anglais.name'),
+      issuer: t('certifications.anglais.issuer'),
       year: '2024',
-      icon: FaCode,
+      icon: FaLanguage,
       link: '#'
     },
     {
-      name: t('about.certifications.aws.name'),
-      issuer: t('about.certifications.aws.issuer'),
-      year: '2023',
-      icon: FaCloud,
-      link: '#'
-    },
-    {
-      name: t('about.certifications.python.name'),
-      issuer: t('about.certifications.python.issuer'),
-      year: '2023',
-      icon: FaTerminal,
-      link: '#'
-    },
-    {
-      name: t('about.certifications.flutter.name'),
-      issuer: t('about.certifications.flutter.issuer'),
+      name: t('certifications.francais.name'),
+      issuer: t('certifications.francais.issuer'),
       year: '2022',
-      icon: FaMobile,
+      icon: FaLanguage,
       link: '#'
     }
   ];

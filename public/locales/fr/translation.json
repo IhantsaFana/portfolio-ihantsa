@@ -82,21 +82,17 @@
       "title": "Certifications & Formation",
       "subtitle": "Apprentissage continu et réalisations de développement professionnel.",
       "verified": "Vérifié",
-      "react": {
-        "name": "React Patterns Avancés",
-        "issuer": "React Training"
+      "informatique": {
+        "name": "Licence professionnel en Informatique",
+        "issuer": "ESMIA Antananarivo Madagascar"
       },
-      "aws": {
-        "name": "AWS Cloud Practitioner",
-        "issuer": "Amazon Web Services"
+      "anglais": {
+        "name": "Anglais Parlé - Niveau B2",
+        "issuer": "FLTC Madagascar Group"
       },
-      "python": {
-        "name": "Python pour la Data Science",
-        "issuer": "DataCamp"
-      },
-      "flutter": {
-        "name": "Développement Flutter",
-        "issuer": "Google Developers"
+      "francais": {
+        "name": "Français Parlé - Niveau B1",
+        "issuer": "FLTC Madagascar Group"
       }
     },
     "hobbies": {

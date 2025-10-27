@@ -82,21 +82,17 @@
       "title": "Certifications & Education",
       "subtitle": "Continuous learning and professional development achievements.",
       "verified": "Verified",
-      "react": {
-        "name": "React Advanced Patterns",
-        "issuer": "React Training"
+      "informatique": {
+        "name": "Professional Bachelor's Degree in Computer Science",
+        "issuer": "ESMIA Antananarivo Madagascar"
       },
-      "aws": {
-        "name": "AWS Cloud Practitioner",
-        "issuer": "Amazon Web Services"
+      "anglais": {
+        "name": "Spoken English - Level B2",
+        "issuer": "FLTC Madagascar Group"
       },
-      "python": {
-        "name": "Python for Data Science",
-        "issuer": "DataCamp"
-      },
-      "flutter": {
-        "name": "Flutter Development",
-        "issuer": "Google Developers"
+      "francais": {
+        "name": "Spoken French - Level B1",
+        "issuer": "FLTC Madagascar Group"
       }
     },
     "hobbies": {
